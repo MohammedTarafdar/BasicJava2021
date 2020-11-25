@@ -79,10 +79,15 @@ public class ArrayListExample {
 		studentName.add("Abu Hayder");
 		studentName.add("Md M Islam");
 		
+		System.out.println(" ");
 		System.out.println(studentName);
+		System.out.println("Total number of Student is : "+studentName.size());
 		
+		System.out.println(" ");
 		studentName.add(1, "Monirul Islam");
-		System.out.println(studentName);		
+		System.out.println(studentName);
+		System.out.println("Total number of Student is : "+studentName.size());
+		
 		
 	}
 
