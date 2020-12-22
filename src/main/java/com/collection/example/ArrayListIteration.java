@@ -26,11 +26,13 @@ public class ArrayListIteration {
 				System.out.println(student.get(i));
 		}
 		
-		// with advanced for loop
+		// with advanced for loop or for each loop
 		System.out.println(" ");
 		for(String stu : student) {
 			System.out.println(stu);
 		}
+		
+		
 		
 		// Looping Array List using Iterator
 		
